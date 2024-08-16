@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -87,6 +88,10 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "java",
+      icon: java,
     },
   ];
   
@@ -155,16 +160,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ochi WebApp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A detailed oriented animated website made from react Vite i.e., a modern Js build tool, as it is best compilation build tool so I started building on it. Although it's non-responsive but this can be turned into a responsive one. I learned different concepts of animation, use of different types of fonts and also sleek styling.",
       tags: [
         {
-          name: "react",
+          name: "react(vite)",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "animations",
           color: "green-text-gradient",
         },
         {
@@ -173,49 +178,49 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/playlikesam/ochi-app",
     },
     {
-      name: "Job IT",
+      name: "Chat App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Embark on a journey of seamless communication with my captivating Java-powered chatting application! Crafted with finesse using the dynamic Swing framework and ingenious socket programming. I make the Whatsapp interface in the application.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Socket",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Swing",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/playlikesam/ChatApp",
     },
     {
-      name: "Trip Guide",
+      name: "Ray-Ban",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Successfully designed and implemented a dynamic webpage for RayBan integrating HTML5, CSS, and JavaScript, enhanced with SheryJS for advanced animations. The webpage showcases proficiency in creating engaging user interfaces and implementing interactive features.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/playlikesam/rayban",
     },
   ];
   
