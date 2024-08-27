@@ -33,7 +33,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Education",
     },
     {
       id: "contact",
@@ -134,27 +134,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "My role is to create visual concepts to communicate ideas that inspire, inform, or captivate consumers.",
+      name: "Samsiddhi Naturals",
+      designation: "Graphics Designer",
+      company: "-Present",
+      
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Worked with Watson Assistant. In this period, I learned about workings in IBM Cloud.",
+      name: "IBM",
+      designation: "Student Intern",
+      company: "-2024",
+      
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "In this Intern, got selected via AICTE. I got to learn about Process Mining and about KPI Analysis.",
+      name: "Celonis",
+      designation: "Student Intern",
+      company: "-2022",
+      
     },
   ];
   
