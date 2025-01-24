@@ -7,7 +7,7 @@ import { styles } from '../styles';
 
 const Works = () => {
   return (
-    <>
+    <div className="relative z-10"> {/* Added z-index to ensure visibility */}
       {/* Heading Section */}
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-left text-5xl font-bold mb-6`}>
@@ -61,7 +61,7 @@ const Works = () => {
           ))}
         </div>
       </motion.div>
-    </>
+    </div>
   );
 };
 
