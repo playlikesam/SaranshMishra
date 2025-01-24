@@ -44,7 +44,7 @@ const About = () => {
         >Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        I am a software developer with a passion for creating and designing web applications. I have a strong foundation in computer science and software engineering principles. I am proficient in front-end and back-end technologies, including React, JSP, Swing, Servlet, AWT, Socket Programming, and JDBC. I am a quick learner and enjoy working on challenging projects. I am looking for opportunities to work on interesting projects and collaborate with other developers.
+        I am a software developer with a passion for crafting web applications. I have a strong foundation in computer science and software engineering principles. I am proficient in front-end and back-end technologies, including React, JSP, Swing, Servlet, AWT, Socket Programming, and JDBC. I am a quick learner and enjoy working on challenging projects. I am looking for opportunities to work on interesting projects and collaborate with other developers.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) =>(
