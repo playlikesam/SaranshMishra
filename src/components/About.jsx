@@ -43,8 +43,10 @@ const About = () => {
         <h2 className={`{styles.sectionHeadText} text-[3.5rem] font-bold text-white mb-5`}
         >Overview</h2>
       </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        I am a software developer with a passion for crafting web applications. I have a strong foundation in computer science and software engineering principles. I am proficient in front-end and back-end technologies, including React, JSP, Swing, Servlet, AWT, Socket Programming, and JDBC. I am a quick learner and enjoy working on challenging projects. I am looking for opportunities to work on interesting projects and collaborate with other developers.
+      <motion.p style={{textAlign:'justify'}} variants={fadeIn("", "", 0.1, 1)}>
+        I am Saransh Mishra, a B.Tech Computer Science student specializing in mobile application development using React Native (Expo) and web application development with React, Bootstrap, and other modern frameworks. My expertise lies in creating intuitive, user-friendly applications and managing projects efficiently using tools like Jira.
+
+I have developed impactful projects, including real-time chat systems, learning platforms, and dynamic web interfaces. My experience with team leadership, combined with a strong technical foundation, enables me to deliver high-quality solutions that align with user needs and business goals. Fluent in English and Hindi, I am committed to innovation and open to contributing to opportunities across PAN India.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) =>(

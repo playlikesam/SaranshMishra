@@ -31,6 +31,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import port2 from "./port2.png";
+import port3 from "./port3.png";
+import port4 from "./port4.png";
+import port6 from "./port6.png";
+import port7 from "./port7.png";
+
 
 export {
   logo,
@@ -63,4 +69,9 @@ export {
   jobit,
   tripguide,
   java,
+  port2,
+  port3,
+  port4,
+  port6,
+  port7
 };

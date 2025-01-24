@@ -24,6 +24,11 @@ import {
     tripguide,
     threejs,
     java,
+    port2,
+    port3,
+    port4,
+    port6,
+    port7,
   } from "../assets";
   
   export const navLinks = [
@@ -47,7 +52,7 @@ import {
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "React Native Developer",
       icon: mobile,
     },
     {
@@ -55,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Graphics Designer",
+      title: "Backend Developer",
       icon: creator,
     },
   ];
@@ -64,34 +69,42 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/1051/1051277.png",
     },
     {
       name: "CSS 3",
       icon: css,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/732/732190.png",
     },
     {
       name: "JavaScript",
       icon: javascript,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
     },
     {
       name: "React JS",
       icon: reactjs,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/3459/3459528.png",
     },
     {
-      name: "Tailwind CSS",
+      name: "React Native",
       icon: tailwind,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
     },
     {
-      name: "Three JS",
+      name: "Java",
       icon: threejs,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/226/226777.png",
     },
     {
       name: "git",
       icon: git,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/4494/4494748.png",
     },
     {
-      name: "java",
+      name: "docker",
       icon: java,
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/15466/15466088.png",
     },
   ];
   
@@ -134,16 +147,16 @@ import {
   const testimonials = [
     {
       testimonial:
-        "My role is to create visual concepts to communicate ideas that inspire, inform, or captivate consumers.",
-      name: "Samsiddhi Naturals",
-      designation: "Graphics Designer",
+        "I have worked with multiple clients and also contributed on open source projects. I have a good experience in developing web applications and also in developing mobile applications.",
+      name: "UpWork, Fiverr & Linkedin",
+      designation: "Freelance Developer",
       company: "-Present",
       
     },
     {
       testimonial:
         "Worked with Watson Assistant. In this period, I learned about workings in IBM Cloud.",
-      name: "IBM",
+      name: "IBM SkillsBuild",
       designation: "Student Intern",
       company: "-2024",
       
@@ -221,6 +234,111 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/playlikesam/rayban",
+    },
+    {
+      name: "Education Dashboard",
+      description:
+        "Successfully designed and implemented a dynamic dashboard for interactive learning integrating HTML5, CSS, and JavaScript, enhanced with SheryJS for advanced animations.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port2,
+      source_code_link: "https://github.com/playlikesam",
+    },
+    {
+      name: "Mangalam Hospital",
+      description:
+        "Designed and developed Mangalam Hospital's website using HTML5, CSS, and JavaScript, ensuring a responsive and user-friendly interface. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port3,
+      source_code_link: "https://github.com/playlikesam",
+    },
+    {
+      name: "Learning Point",
+      description:
+        "Created a Website Learning point using HTML5, CSS, and JavaScript, ensuring a responsive and user-friendly interface. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces. The website is a learning platform for students.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port4,
+      source_code_link: "https://github.com/playlikesam",
+    },
+    {
+      name: "SmartEd",
+      description:
+        "Created a Website for my major project demonstrating the proper video lectures and notes for the students. The website is a learning platform for students. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port6,
+      source_code_link: "https://github.com/playlikesam",
+    },
+    {
+      name: "Bubble.io",
+      description:
+        "Created a website using virtual programming language Bubble.io. This is a demo website which is just reflecting my capabilities of using the virtual language platform. While using this, I noticed that it is a very easy platform to use and can be used by anyone.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port7,
+      source_code_link: "https://github.com/playlikesam",
     },
   ];
   
