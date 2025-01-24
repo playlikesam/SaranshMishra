@@ -5,12 +5,12 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
-import * as Scale from "maath";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className='w-full sm:w-[360px]'
     >
       <Tilt
         options={{
@@ -18,7 +18,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl'
       >
         <div className='relative w-full h-[230px]'>
           <img 
@@ -40,7 +40,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
         </div>
         
-        <div className='mt-5 '>
+        <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
@@ -65,13 +65,13 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>My Work</p>
-        <h2 className={`${styles.sectionHeadText} text-[3.5rem] font-bold text-white mb-5`}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText} text-[2rem] sm:text-[3.5rem] font-bold text-white mb-5`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[14px] sm:text-[17px] max-w-3xl leading-[24px] sm:leading-[30px]'
         >
           Here are some of the projects I have worked on.
           You can find more on my GitHub profile. Kindly visit through the link 
@@ -79,7 +79,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-10 sm:mt-20 flex flex-wrap gap-5 sm:gap-7'>
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`} 
