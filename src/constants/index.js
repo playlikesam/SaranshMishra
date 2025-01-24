@@ -175,20 +175,11 @@ import {
     {
       name: "Ochi WebApp",
       description:
-        "A detailed oriented animated website made from react Vite i.e., a modern Js build tool, as it is best compilation build tool so I started building on it. Although it's non-responsive but this can be turned into a responsive one. I learned different concepts of animation, use of different types of fonts and also sleek styling.",
+        "A detailed-oriented animated website built using React Vite, a modern JavaScript build tool. While the website is currently non-responsive, it can be adapted for responsiveness. Through this project, I learned about animations, font usage, and sleek styling.",
       tags: [
-        {
-          name: "react(vite)",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "animations",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        { name: "react(vite)", color: "blue-text-gradient" },
+        { name: "animations", color: "green-text-gradient" },
+        { name: "tailwind", color: "pink-text-gradient" },
       ],
       image: carrent,
       source_code_link: "https://github.com/playlikesam/ochi-app",
@@ -196,20 +187,11 @@ import {
     {
       name: "Chat App",
       description:
-        "Embark on a journey of seamless communication with my captivating Java-powered chatting application! Crafted with finesse using the dynamic Swing framework and ingenious socket programming. I make the Whatsapp interface in the application.",
+        "A Java-powered chatting application built with Swing and socket programming. Inspired by the WhatsApp interface, this application offers a seamless communication experience.",
       tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Socket",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Swing",
-          color: "pink-text-gradient",
-        },
+        { name: "Java", color: "blue-text-gradient" },
+        { name: "Socket", color: "green-text-gradient" },
+        { name: "Swing", color: "pink-text-gradient" },
       ],
       image: jobit,
       source_code_link: "https://github.com/playlikesam/ChatApp",
@@ -217,20 +199,11 @@ import {
     {
       name: "Ray-Ban",
       description:
-        "Successfully designed and implemented a dynamic webpage for RayBan integrating HTML5, CSS, and JavaScript, enhanced with SheryJS for advanced animations. The webpage showcases proficiency in creating engaging user interfaces and implementing interactive features.",
+        "A dynamic webpage for Ray-Ban created using HTML5, CSS, and JavaScript, enhanced with SheryJS for advanced animations. This project demonstrates expertise in crafting engaging user interfaces and interactive features.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: tripguide,
       source_code_link: "https://github.com/playlikesam/rayban",
@@ -238,20 +211,11 @@ import {
     {
       name: "Education Dashboard",
       description:
-        "Successfully designed and implemented a dynamic dashboard for interactive learning integrating HTML5, CSS, and JavaScript, enhanced with SheryJS for advanced animations.",
+        "An interactive learning dashboard designed and implemented using HTML5, CSS, and JavaScript, with SheryJS enhancing animations. It provides an intuitive user experience.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: port2,
       source_code_link: "https://github.com/playlikesam",
@@ -259,20 +223,11 @@ import {
     {
       name: "Mangalam Hospital",
       description:
-        "Designed and developed Mangalam Hospital's website using HTML5, CSS, and JavaScript, ensuring a responsive and user-friendly interface. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces.",
+        "A responsive and user-friendly website for Mangalam Hospital, developed using HTML5, CSS, and JavaScript. It is optimized for mobile devices, showcasing proficiency in building intuitive interfaces.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: port3,
       source_code_link: "https://github.com/playlikesam",
@@ -280,20 +235,11 @@ import {
     {
       name: "Learning Point",
       description:
-        "Created a Website Learning point using HTML5, CSS, and JavaScript, ensuring a responsive and user-friendly interface. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces. The website is a learning platform for students.",
+        "A responsive learning platform for students, built using HTML5, CSS, and JavaScript. It offers a user-friendly interface, optimized for mobile devices.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: port4,
       source_code_link: "https://github.com/playlikesam",
@@ -301,20 +247,11 @@ import {
     {
       name: "SmartEd",
       description:
-        "Created a Website for my major project demonstrating the proper video lectures and notes for the students. The website is a learning platform for students. The website is optimized for mobile devices and showcases proficiency in creating engaging user interfaces.",
+        "A major project showcasing proper video lectures and notes for students. Built as a responsive learning platform, this website demonstrates proficiency in crafting interactive user experiences.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: port6,
       source_code_link: "https://github.com/playlikesam",
@@ -322,24 +259,16 @@ import {
     {
       name: "Bubble.io",
       description:
-        "Created a website using virtual programming language Bubble.io. This is a demo website which is just reflecting my capabilities of using the virtual language platform. While using this, I noticed that it is a very easy platform to use and can be used by anyone.",
+        "A demo website created using the virtual programming platform Bubble.io. It highlights the simplicity and accessibility of the platform, showcasing my ability to adapt to new tools.",
       tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
       ],
       image: port7,
       source_code_link: "https://github.com/playlikesam",
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };

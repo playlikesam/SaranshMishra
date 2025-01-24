@@ -4,7 +4,7 @@ import { technologies } from "../constants";
 const Tech = () => {
   return (
     <div>
-      <h2 className="text-left text-3xl font-bold mb-6">Technologies</h2>
+      <h2 className="text-left text-5xl font-bold mb-6">Technologies</h2>
       <p className="text-left text-lg text-secondary mb-10">
         Here are some of the technologies I have worked with. </p>
       <div className="flex flex-row flex-wrap justify-center gap-10">
